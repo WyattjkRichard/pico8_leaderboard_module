@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebRTC Text Chat</title>
+  </head>
+  <body>
+    <div>
+      <input id="webrtc_offer_input" readonly></input>
+      <button id="webrtc_offer_button" onclick="copy_offer_cb()" value="">Loading offer...</button>
+    </div>
+    <div>
+      <input id="webrtc_answer_input"></input>
+      <button id="webrtc_answer_button" onclick="copy_answer_cb()">...</button>
+    </div>
+    <div id="chat_messages"></div>
+    <script type="text/javascript" src="webRTC.js"></script>
+  </body>
+</html>
